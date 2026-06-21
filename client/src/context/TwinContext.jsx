@@ -139,7 +139,7 @@ export function TwinProvider({ children }) {
     dispatch({ type: 'START_LOADING_AI' });
 
     try {
-      const response = await fetch('/api/analyze', {
+      const response = await fetch('https://ecotwin-5op9.onrender.com/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -164,7 +164,7 @@ export function TwinProvider({ children }) {
     dispatch({ type: 'START_SIMULATING' });
 
     try {
-      const response = await fetch('/api/simulate', {
+      const response = await fetch('https://ecotwin-5op9.onrender.com/api/simulate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
