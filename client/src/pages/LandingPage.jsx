@@ -6,7 +6,7 @@ import StatsSection from '../components/landing/StatsSection';
 
 export default function LandingPage() {
   return (
-    <PageWrapper noPadding={true}>
+    <PageWrapper>
       <Hero />
       <FeaturesSection />
       <HowItWorks />

@@ -8,7 +8,7 @@ const pageVariants = {
   exit: { opacity: 0, y: -20 },
 };
 
-export default function PageWrapper({ children, className = '', noPadding = false }) {
+export default function PageWrapper({ children, className = '' }) {
   const location = useLocation();
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function PageWrapper({ children, className = '', noPadding = fals
       animate="animate"
       exit="exit"
       transition={{ duration: 0.4, ease: 'easeOut' }}
-      className={`min-h-screen ${noPadding ? '' : 'pt-16 md:pt-20'} ${className}`}
+      className={`min-h-screen ${className}`}
     >
       {children}
     </motion.main>

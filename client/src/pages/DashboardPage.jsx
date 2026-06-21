@@ -25,7 +25,7 @@ export default function DashboardPage() {
   return (
     <PageWrapper>
       <div className="bg-radial-glow min-h-screen">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8 space-y-8">
           {/* Page Header */}
           <div>
             <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
