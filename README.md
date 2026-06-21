@@ -91,3 +91,24 @@ Built with a premium, futuristic dark-mode aesthetic using "Glassmorphism", soft
 ## License
 
 MIT License. Built for a better planet. 🌍
+
+## Testing
+
+Manual testing performed:
+
+✅ User profile creation tested  
+✅ Carbon footprint calculation tested  
+✅ Simulator flow tested  
+✅ AI insights generation tested  
+✅ Backend API endpoints tested  
+✅ Frontend and backend integration tested  
+✅ Responsive UI tested across different screen sizes  
+
+### Test Environment
+
+- Frontend: React + Vite
+- Backend: Node.js + Express
+- AI Service: Gemini API
+- Browser: Chrome
+
+All major user flows were manually verified after deployment.
