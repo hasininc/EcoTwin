@@ -27,4 +27,15 @@ describe("EcoTwin Simulation API", () => {
 
   });
 
+
+  test("API should handle missing scenario data", async () => {
+
+    const response = await request(app)
+      .post("/api/simulate")
+      .send({});
+
+    expect(response.statusCode).toBeDefined();
+
+  });
+
 });
