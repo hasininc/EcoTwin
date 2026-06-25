@@ -8,7 +8,7 @@
     "client": "npm run dev --prefix client",
     "server": "npm run dev --prefix server",
     "install:all": "npm install && npm install --prefix client && npm install --prefix server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test --prefix server"
   },
   "keywords": [],
   "author": "",
